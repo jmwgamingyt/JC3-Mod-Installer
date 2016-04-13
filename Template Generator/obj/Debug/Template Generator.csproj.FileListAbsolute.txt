@@ -1,0 +1,6 @@
+C:\Users\admin\documents\visual studio 2015\Projects\Mod Installer - Manager\Template Generator\obj\Debug\Template Generator.csprojResolveAssemblyReference.cache
+C:\Users\admin\documents\visual studio 2015\Projects\Mod Installer - Manager\Template Generator\bin\Debug\Template Generator.exe.config
+C:\Users\admin\documents\visual studio 2015\Projects\Mod Installer - Manager\Template Generator\bin\Debug\Template Generator.exe
+C:\Users\admin\documents\visual studio 2015\Projects\Mod Installer - Manager\Template Generator\bin\Debug\Template Generator.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\Mod Installer - Manager\Template Generator\obj\Debug\Template Generator.exe
+C:\Users\admin\documents\visual studio 2015\Projects\Mod Installer - Manager\Template Generator\obj\Debug\Template Generator.pdb

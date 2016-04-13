@@ -1,0 +1,9 @@
+c:\users\admin\documents\visual studio 2015\Projects\Mod Installer - Manager\Mod Installer - Manager\bin\Debug\Mod Installer - Manager.exe.config
+c:\users\admin\documents\visual studio 2015\Projects\Mod Installer - Manager\Mod Installer - Manager\bin\Debug\Mod Installer - Manager.exe
+c:\users\admin\documents\visual studio 2015\Projects\Mod Installer - Manager\Mod Installer - Manager\bin\Debug\Mod Installer - Manager.pdb
+c:\users\admin\documents\visual studio 2015\Projects\Mod Installer - Manager\Mod Installer - Manager\obj\Debug\Mod Installer - Manager.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2015\Projects\Mod Installer - Manager\Mod Installer - Manager\obj\Debug\Mod_Installer___Manager.Form1.resources
+c:\users\admin\documents\visual studio 2015\Projects\Mod Installer - Manager\Mod Installer - Manager\obj\Debug\Mod_Installer___Manager.Properties.Resources.resources
+c:\users\admin\documents\visual studio 2015\Projects\Mod Installer - Manager\Mod Installer - Manager\obj\Debug\Mod Installer - Manager.csproj.GenerateResource.Cache
+c:\users\admin\documents\visual studio 2015\Projects\Mod Installer - Manager\Mod Installer - Manager\obj\Debug\Mod Installer - Manager.exe
+c:\users\admin\documents\visual studio 2015\Projects\Mod Installer - Manager\Mod Installer - Manager\obj\Debug\Mod Installer - Manager.pdb
