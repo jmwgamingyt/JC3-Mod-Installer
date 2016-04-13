@@ -30,6 +30,8 @@
         {
             this.install = new System.Windows.Forms.Button();
             this.uninstall = new System.Windows.Forms.Button();
+            this.load = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
             // install
@@ -52,11 +54,26 @@
             this.uninstall.UseVisualStyleBackColor = true;
             this.uninstall.Click += new System.EventHandler(this.uninstall_Click);
             // 
+            // load
+            // 
+            this.load.Location = new System.Drawing.Point(12, 70);
+            this.load.Name = "load";
+            this.load.Size = new System.Drawing.Size(260, 23);
+            this.load.TabIndex = 2;
+            this.load.Text = "Load Custom XML File";
+            this.load.UseVisualStyleBackColor = true;
+            this.load.Click += new System.EventHandler(this.load_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.load);
             this.Controls.Add(this.uninstall);
             this.Controls.Add(this.install);
             this.Name = "Main";
@@ -71,6 +88,8 @@
 
         private System.Windows.Forms.Button install;
         private System.Windows.Forms.Button uninstall;
+        private System.Windows.Forms.Button load;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
 

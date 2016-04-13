@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualBasic.FileIO;
 using Microsoft.Win32;
 using System;
+using System.IO;
 using System.Windows.Forms;
 using System.Xml;
 
@@ -36,6 +37,21 @@ namespace Installer
             }
         }
 
+        private void load_Click(object sender, EventArgs e)
+        {
+            DialogResult result = openFileDialog1.ShowDialog();
+            switch(result)
+            {
+                case DialogResult.OK:
+                    {
+                        file = openFileDialog1.FileName;
+                        installer_dir = Path.GetDirectoryName(file);
+                        read();
+                    }
+                    break;
+            }
+        }
+
         private void install_Click(object sender, EventArgs e)
         {
             read();
@@ -44,7 +60,7 @@ namespace Installer
             {
                 case DialogResult.Yes:
                     {
-                        FileSystem.CopyDirectory(sky_fortress_dropzone_dir, dir + @"dropzone_sky_fortress\__UNKNOWN\" + sky_fortress_dropzone_dir, true);
+                        FileSystem.CopyDirectory(installer_dir + @"\" + sky_fortress_dropzone_dir, dir + @"dropzone_sky_fortress\__UNKNOWN\" + sky_fortress_dropzone_dir, true);
                         FileSystem.CopyFile(file, dir + @"dropzone_sky_fortress\__UNKNOWN\" + modder + "_" + id + ".xml", true);
                         repack();
                     }
