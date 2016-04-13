@@ -11,6 +11,8 @@ namespace Mod_Installer___Manager
     public partial class Main : Form
     {
         static string jc3dir = @"C:\Program Files (x86)\Steam\steamapps\common\Just Cause 3", file = "mod.xml", path, dir = jc3dir + path;
+        static XmlReaderSettings settings = new XmlReaderSettings();
+        static XmlReader reader = XmlReader.Create(file, settings);
         static bool sky;
 
 
@@ -32,8 +34,6 @@ namespace Mod_Installer___Manager
             {
                 case true:
                     {
-                        XmlReaderSettings settings = new XmlReaderSettings();
-                        XmlReader reader = XmlReader.Create(file, settings);
                         reader.ReadToFollowing("dropzone");
                         string dropzone = reader.GetAttribute("type");
                         if (dropzone == "dropzone_sky_fortress")
@@ -67,8 +67,6 @@ namespace Mod_Installer___Manager
 
         private void button2_Click(object sender, EventArgs e)
         {
-            XmlReaderSettings settings = new XmlReaderSettings();
-            XmlReader reader = XmlReader.Create(file, settings);
             reader.ReadToFollowing("mod");
             string modid = reader.GetAttribute("id");
             string modder = reader.GetAttribute("modder");
@@ -102,8 +100,6 @@ namespace Mod_Installer___Manager
 
         private void button3_Click(object sender, EventArgs e)
         {
-            XmlReaderSettings settings = new XmlReaderSettings();
-            XmlReader reader = XmlReader.Create(file, settings);
             reader.ReadToFollowing("mod");
             string modid = reader.GetAttribute("id"), modver = reader.GetAttribute("ver"),
                 moddir = reader.GetAttribute("dir"), modder = reader.GetAttribute("modder");
@@ -164,7 +160,6 @@ namespace Mod_Installer___Manager
                 case DialogResult.OK:
                     {
                         file = openFileDialog.FileName;
-                        XmlReaderSettings settings = new XmlReaderSettings();
                         XmlReader reader = XmlReader.Create(file, settings);
                         reader.ReadToFollowing("dropzone");
                         string dropzone = reader.GetAttribute("type");

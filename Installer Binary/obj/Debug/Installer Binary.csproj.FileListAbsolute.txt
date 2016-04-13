@@ -1,0 +1,10 @@
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Installer Binary\bin\Debug\Installer Binary.exe.config
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Installer Binary\obj\Debug\Installer Binary.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Installer Binary\obj\Debug\Mod_Installer___Manager.Main.resources
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Installer Binary\obj\Debug\Installer_Binary.Properties.Resources.resources
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Installer Binary\obj\Debug\Mod_Installer___Manager.XmlCreator.resources
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Installer Binary\obj\Debug\Installer Binary.csproj.GenerateResource.Cache
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Installer Binary\bin\Debug\Installer Binary.exe
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Installer Binary\bin\Debug\Installer Binary.pdb
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Installer Binary\obj\Debug\Installer Binary.exe
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Installer Binary\obj\Debug\Installer Binary.pdb

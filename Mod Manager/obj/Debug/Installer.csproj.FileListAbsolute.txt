@@ -11,3 +11,13 @@ C:\Users\admin\documents\visual studio 2015\Projects\Mod Installer - Manager\Mod
 C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Installer - Manager\Mod Manager\bin\Debug\Installer.exe.config
 C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Installer - Manager\Mod Manager\obj\Debug\Installer.exe
 C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Installer - Manager\Mod Manager\obj\Debug\Installer.pdb
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Mod Manager\bin\Debug\Installer.exe.config
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Mod Manager\obj\Debug\Installer.exe
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Mod Manager\obj\Debug\Installer.pdb
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Mod Manager\bin\Debug\Installer.exe
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Mod Manager\bin\Debug\Installer.pdb
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Mod Manager\obj\Debug\Installer.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Mod Manager\obj\Debug\Mod_Installer___Manager.Main.resources
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Mod Manager\obj\Debug\Mod_Installer___Manager.Properties.Resources.resources
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Mod Manager\obj\Debug\Mod_Installer___Manager.XmlCreator.resources
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Mod Manager\obj\Debug\Installer.csproj.GenerateResource.Cache
