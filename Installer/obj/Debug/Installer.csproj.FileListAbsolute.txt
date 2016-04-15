@@ -7,3 +7,13 @@ C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Installer\obj\D
 C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Installer\obj\Debug\Installer.exe
 C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Installer\obj\Debug\Installer.pdb
 C:\Users\admin\Documents\Visual Studio 2015\Projects\Mod Manager\Installer\obj\Debug\Installer.csprojResolveAssemblyReference.cache
+C:\Users\jmwga\Documents\Visual Studio 2015\Projects\JC3-Mod-Installer\Installer\bin\Debug\Installer.exe.config
+C:\Users\jmwga\Documents\Visual Studio 2015\Projects\JC3-Mod-Installer\Installer\bin\Debug\Installer.exe
+C:\Users\jmwga\Documents\Visual Studio 2015\Projects\JC3-Mod-Installer\Installer\bin\Debug\Installer.pdb
+C:\Users\jmwga\Documents\Visual Studio 2015\Projects\JC3-Mod-Installer\Installer\obj\Debug\Installer.Main.resources
+C:\Users\jmwga\Documents\Visual Studio 2015\Projects\JC3-Mod-Installer\Installer\obj\Debug\Installer.Properties.Resources.resources
+C:\Users\jmwga\Documents\Visual Studio 2015\Projects\JC3-Mod-Installer\Installer\obj\Debug\Installer.XmlGen.resources
+C:\Users\jmwga\Documents\Visual Studio 2015\Projects\JC3-Mod-Installer\Installer\obj\Debug\Installer.csproj.GenerateResource.Cache
+C:\Users\jmwga\Documents\Visual Studio 2015\Projects\JC3-Mod-Installer\Installer\obj\Debug\Installer.exe
+C:\Users\jmwga\Documents\Visual Studio 2015\Projects\JC3-Mod-Installer\Installer\obj\Debug\Installer.pdb
+C:\Users\jmwga\Documents\Visual Studio 2015\Projects\JC3-Mod-Installer\Installer\obj\Debug\Installer.csprojResolveAssemblyReference.cache

@@ -10,13 +10,15 @@ namespace Installer
 {
     public partial class Main : Form
     {
-        static string dir,
+        public static string dir,
             file = "mod.xml",
             id = "Mod ID",
             ver = "Mod Version",
             modder = "Modder Name",
             sky_fortress_dropzone_dir = "Folder To Copy To Sky Fortress Packer",
             installer_dir = FileSystem.CurrentDirectory;
+
+        public static bool doesFileExist;
 
         private void uninstall_Click(object sender, EventArgs e)
         {
@@ -47,9 +49,17 @@ namespace Installer
                         file = openFileDialog1.FileName;
                         installer_dir = Path.GetDirectoryName(file);
                         read();
+                        install.Enabled = uninstall.Enabled = true;
+                        doesFileExist = true;
                     }
                     break;
             }
+        }
+
+        private void GenXml_Click(object sender, EventArgs e)
+        {
+            XmlGen form = new XmlGen();
+            form.Show();
         }
 
         private void install_Click(object sender, EventArgs e)
@@ -80,20 +90,32 @@ namespace Installer
             {
                 dir = ((string)key.GetValue("InstallLocation")+@"\");
             }
-            read();
-        }
-        public void read()
-        {
-            using (XmlReader xmlr = XmlReader.Create(file))
+            if(!FileSystem.FileExists(file))
             {
-                xmlr.ReadToFollowing("mod");
-                id = xmlr.GetAttribute("id");
-                ver = xmlr.GetAttribute("ver");
-                modder = xmlr.GetAttribute("modder");
-                sky_fortress_dropzone_dir = xmlr.GetAttribute("sky_fortress_dropzone_dir");
+                install.Enabled = uninstall.Enabled = false;
+                doesFileExist = false;
+            }
+            else
+            {
+                read();
+                doesFileExist = true;
             }
         }
-        public void write()
+        public static void read()
+        {
+            if (doesFileExist)
+            {
+                using (XmlReader xmlr = XmlReader.Create(file))
+                {
+                    xmlr.ReadToFollowing("mod");
+                    id = xmlr.GetAttribute("id");
+                    ver = xmlr.GetAttribute("ver");
+                    modder = xmlr.GetAttribute("modder");
+                    sky_fortress_dropzone_dir = xmlr.GetAttribute("sky_fortress_dropzone_dir");
+                }
+            }
+        }
+        public static void write()
         {
             XmlWriterSettings settings = new XmlWriterSettings();
             settings.NewLineOnAttributes = true;
@@ -109,10 +131,12 @@ namespace Installer
                 xmlw.WriteEndElement();
                 xmlw.WriteEndDocument();
             }
+            file = "mod.xml";
+            Application.Restart();
+
         }
         public void repack()
         {
-
             FileSystem.CurrentDirectory = dir + @"dropzone_sky_fortress";
             System.Diagnostics.Process.Start(dir + @"dropzone_sky_fortress\SkyFortressPacker.exe");
             FileSystem.CurrentDirectory = installer_dir;
